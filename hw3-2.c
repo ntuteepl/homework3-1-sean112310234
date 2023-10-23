@@ -20,7 +20,8 @@ int main() {
     else{
         c=3;
     }
-    
     }
+printf("%d", c);
+}
 
 
