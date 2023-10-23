@@ -1,6 +1,4 @@
-#include <stdio.h>
-
-int main() {
+#int main() {
     int s1, d1, s2, d2, s3, d3;
     scanf("%d %d %d %d %d %d", &s1, &d1, &s2, &d2, &s3, &d3);
     
@@ -20,8 +18,13 @@ int main() {
     else{
         c=3;
     }
+    
     }
-printf("%d", c);
+    else {
+        c=2;
+    }
+    
+    printf("%d", c);
 }
 
 
